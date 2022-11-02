@@ -20,7 +20,7 @@
         <label for="" class="form-label">Precio</label>
         <input id="precio" name="precio" type="number" step="any" value="0.00" class="form-control" tabindex="4">
     </div>
-    <a href="/artocilos" class="btn btn-danger" tabindex="5">Cancelar</a>
+    <a href="/articulos" class="btn btn-danger" tabindex="5">Cancelar</a>
     <button type="submit" class="btn btn-success" tabindex="4">Guardar</button>
 </form>
 @endsection
