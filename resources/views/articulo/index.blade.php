@@ -22,7 +22,7 @@
             <td>{{$articulo->cantidad}}</td>
             <td>{{$articulo->precio}}</td>
             <td>
-                <a href="" class="btn btn-info">Editar</a>
+                <a href="/articulos/{{$articulo->id}}/edit" class="btn btn-info">Editar</a>
                 <button class="btn btn-danger">Borrar</button>
             </td>
         </tr>
